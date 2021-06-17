@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+h2 span{
+    color: rgb(67, 189, 63);
+}
+header{
+    background: linear-gradient(-154deg,#42bc7f,#42bc7f);
+    padding: 15px 15px;
+    position: fixed;
+    width: 100%;
+}
+
+header>a {
+    padding-left: 2em;
+}
+
+nav{
+    display: inline;
+    float: right;
+    margin-top: 0.6em;
+    text-align: right;
+}
+
+nav ul{
+    display: inline;
+    width: 100%;
+}
+nav li{
+    display: inline-block;
+    margin-right: 1.6em;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgb(36, 36, 36);
+}
+nav a:link{
+    font-size: 14px;
+}
+main{
+    padding-top: 4.4em;
+}
+section{
+    padding: 0 5vh;
+}
+.Welcome {
+    padding-top: 6%;
+    height: 100vh;
+    background: url(img/slider.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30vh;
+    padding: 30vh 5vh;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+h1{
+    margin-top: 15%;
+    color: rgb(255, 255, 255);
+}
+.Welcome p{
+margin: 2em 0;
+}
+h1{
+    margin-top: 15%;
+}
+.Welcome button{
+    height: 3em;
+    width: 14em;
+}
+h1{
+   font-size: 60px;
+}
+.Welcome button{
+    height: 3em;
+    width: 14em;
+    border: none;
+    border-radius: 0%;
+}
+.Viewwork:hover{
+    background: mediumseagreen;
+    color: white;
+}
+.Contactme:hover{
+    background: mediumseagreen;
+    color: white;
+}
+.AboutMe{
+    height: 90hv;
+}
+.AboutMe div{
+    display: inline-block;
+}
+.AboutMe div:first-child{
+    width: 20%;
+    padding-bottom: 10vh;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding-top: 25vh;
+}
+.AboutMe div:nth-child(2){
+    width: 75%;
+    padding-top: 15vh;
+    box-sizing: border-box;
+    padding-bottom: 10vh;
+}
+.AboutMe p{
+    margin-bottom: 2em;
+    width: 60%;
+}
+.downloadCV{
+    display: block;
+    height: 2.5em;
+    width: 12em;
+    background: rgb(0, 141, 12);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 0.6em;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+}
+.icons{
+display: flex;
+}
+.icons a{
+    margin-right: 1em;
+    background: rgb(0, 141, 12);
+    color: white;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 0.5em;
+}
+.AboutMe a:link{
+    text-decoration: none;
+}
